@@ -1,0 +1,1 @@
+#Day 1 - What is Programmimg and Python?
