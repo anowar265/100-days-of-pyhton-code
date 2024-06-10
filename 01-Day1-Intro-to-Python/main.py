@@ -8,11 +8,6 @@ print("Day1 - Python print function")
 print("The function is declared like this:")
 print("print(\"what to print\")")
 
-print("Welcome to the new Band-Name-Genereator")
-city = input("What is the name of the city you grew up in?\n")
-pet = input("What is the name of your pet?\n")
-print("Your band name could be " + city + " " + pet)
-
 #Manipulation and Code Inteligence
 print("Hello" + " " + "Anowar")
 
@@ -32,3 +27,20 @@ print("Hello " + input("What is your name?") + "!")
 name = input("What is your name?")
 length = len(name)
 print(length)
+
+# Variable
+a = input("a:")
+b = input("b:")
+
+temp = a
+a = b
+b = temp
+
+print("a = " + a)
+print("b = " + b)
+
+# Day1 Project
+print("Welcome to the new Band-Name-Genereator")
+city = input("What is the name of the city you grew up in?\n")
+pet = input("What is the name of your pet?\n")
+print("Your band name could be " + city + " " + pet)
