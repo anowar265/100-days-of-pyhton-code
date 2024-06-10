@@ -14,3 +14,21 @@ pet = input("What is the name of your pet?\n")
 print("Your band name could be " + city + " " + pet)
 
 #Manipulation and Code Inteligence
+print("Hello" + " " + "Anowar")
+
+# Debugging the code
+print("Day1 - String Manipulation")
+print("String Concatenation is done with the \"+\" sign.")
+print('e.g. print("Hello " + "world")')
+print("New lines can be created with a backslash and n.")
+
+# Input function
+name = input("What is your name?")
+print(name)
+print("Hello " + input("What is your name?") + "!")
+
+#print(len(input("What is your name?")))
+
+name = input("What is your name?")
+length = len(name)
+print(length)
