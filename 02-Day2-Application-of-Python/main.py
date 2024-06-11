@@ -31,3 +31,6 @@ print("Hello"[4])
 # For human understanding as python will ignore it
 print(12_34_56)
 
+num_char = len(input("What is your name?"))
+new_num_char = str(num_char)
+print(type(new_num_char))
