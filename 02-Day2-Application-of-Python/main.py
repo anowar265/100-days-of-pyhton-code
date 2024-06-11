@@ -44,4 +44,13 @@ bmi = int(weight) / float(height) ** 2
 bmi_as_int = int(bmi)
 print(bmi_as_int)
 
-print(round(8/3, 2))
+print(round(8/3)) # rounding off the number with cieling value 3
+print(round(8/3, 2)) # rounding off to 2 decimal places
+print(8//3) # => 2 floor value or int 
+
+#f-string
+score = 98
+height = 1.8
+isWinnning = True
+# in case of f-string we don't need to convert the data type
+print(f"your score is {score}, your height is {height}, your winning is {isWinnning}")
