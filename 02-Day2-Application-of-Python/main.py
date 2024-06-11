@@ -34,3 +34,14 @@ print(12_34_56)
 num_char = len(input("What is your name?"))
 new_num_char = str(num_char)
 print(type(new_num_char))
+
+num = input("Type a two digit number: ")
+print(int(num[0]) + int(num[1]))
+
+height = input("enter your height in m: ")
+weight = input("enter your weight in kg: ")
+bmi = int(weight) / float(height) ** 2  
+bmi_as_int = int(bmi)
+print(bmi_as_int)
+
+print(round(8/3, 2))
