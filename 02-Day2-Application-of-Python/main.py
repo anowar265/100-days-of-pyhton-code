@@ -54,3 +54,13 @@ height = 1.8
 isWinnning = True
 # in case of f-string we don't need to convert the data type
 print(f"your score is {score}, your height is {height}, your winning is {isWinnning}")
+
+# Calculating the remaining age
+age  = input("what is your current age?")
+age_as_int = int(age)
+years_remaining = 90 - age_as_int
+days_remaining = years_remaining * 365
+weeks_remaining = years_remaining * 52
+months_remaining = years_remaining * 12
+message = f"You have {days_remaining} days, {weeks_remaining}, and {months_remaining} months left."
+print(message)
