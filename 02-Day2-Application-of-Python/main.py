@@ -26,3 +26,7 @@ cv2.waitKey()
 
 
 # Angelena Yu Lecture
+print("Hello"[4])
+# In python for large integer valu we can use _ instead of , for 
+# For human understanding as python will ignore it
+print(12_34_56)
